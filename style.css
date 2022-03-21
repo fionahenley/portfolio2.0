@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background-color: #e2fde8;
+}
+
+/* homepage */
+h1{
+    font-size: 70px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+#options {
+
+    padding-bottom: 205px;
+}
+
+a {
+    color:black;
+}
+
+/* about me  */
+header {
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+   padding-top: 10px;
+   display: inline-block;
+
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+}
+
+nav h1 {
+    justify-content: left;
+}
+
+li {
+    list-style: none;
+    float: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.container {
+ display: flex;
+ flex-direction: column;
+align-items: center;
+}
+
+.about-me img {
+    max-height: 290px;
+    margin-left: 70px;
+    margin-right: 70px;
+    float: left;
+}
+
+h2 {
+ font-size: 19px;
+ text-align: center;
+ line-height: 1.7;
+ margin-right: 90px;
+ padding-top: 50px;
+ 
+}
+.contactHeader h1 {
+    font-weight: bold;
+}
+
+.section-info {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 400px;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.contact:hover {
+        transform: scale(1.2);
+}
+
+/* -------------------------------- WORK HTML ------------------------------- */
+
+.my-work h2 {
+    font-size: 20px;
+}
+
+
+.text-block {
+    position: absolute;
+    left: 0pt;
+    height: 30px;
+    padding-left: 7px;
+    padding-right: 5px;
+    padding-top: 5px;
+    background-color: #f4f2ed;
+    color: black;
+}
+
+.text-block h3 {
+    font-size: 15px;
+}
+
+  /* project 1 */
+  .dinner-drinks-img:hover {
+    height: 300px;
+    width: 600px;
+    background-image: url("images/dinner-drinks.png");
+    background-size: cover;
+    background-position: center top;
+    display: block;
+    margin-right: 0;
+    margin-bottom: 15px;
+    border: .5px solid black;
+}
+
+.dinner-drinks-img:hover {
+    opacity: .5;
+}
+
+/* HORISEON */
+.horiseon-img {
+    height: 300px;
+    width: 600px;
+    background-image: url("images/horiseon.png");
+    background-size: cover;
+    background-position: center-top;
+    display: block;
+    border: .5px solid black;
+    margin-bottom: 15px;
+
+}
+
+.horiseon-img:hover {
+    opacity: .5;
+}
+
+/* RUN BUDDY */
+.run-buddy-img  {
+    height: 300px;
+    width: 600px;
+    background-image: url("images/run-buddy.png");
+    background-size: cover;
+    background-position: center-top;
+    display: block;
+    border: .5px solid black;
+    margin-bottom: 15px;
+}
+
+.run-buddy-img:hover {
+    opacity: .5;
+}
+
+
+/* WEATHER DASHBOARD */
+.weather-dashboard-img {
+    height: 300px;
+    width: 600px;
+    background-image: url("images/weather-dashboard.png");
+    background-size: cover;
+    background-position: center-top;
+    display: block;
+    border: .5px solid black;
+    margin-bottom: 15px;
+}
+
+.weather-dashboard-img:hover {
+    opacity: .5;
+}
+
+/* WORK DAY SCHEDULER  */
+.work-day-scheduler-img {
+    height: 300px;
+    width: 600px;
+    background-image: url("images/work-day-scheduler.png");
+    background-size: cover;
+    background-position: center-top;
+    display: block;
+    border: .5px solid black;
+    margin-bottom: 15px;
+}
+
+.work-day-scheduler-img:hover {
+    opacity: .5;
+}
